@@ -57,7 +57,7 @@
         fnr {
             bindings = <
                 &kp EXCL    &kp AT      &kp POUND   &kp DLLR    &kp PRCNT            &kp CARET   &kp AMPS    &kp STAR   &kp LPAR    &kp RPAR
-                &kp TAB     &kp LBRC    &kp RBRC    &kp LT      &kp RT               &trans      &trans      &trans     &trans      &trans
+                &kp TAB     &kp LBRC    &kp RBRC    &kp LT      &kp GT               &trans      &trans      &trans     &trans      &trans
                 &kp CAPS    &kp LBKT    &kp RBKT    &kp BSLH    &kp PIPE             &trans      &trans      &trans     &trans      &trans
                 &trans      &trans      &trans      &trans      &kp DEL              &trans      &trans      &trans     &trans      &trans
             >;
