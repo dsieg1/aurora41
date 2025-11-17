@@ -21,13 +21,11 @@
             timeout-ms = <50>;
             key-positions = <33 27>;
             bindings = <&kp DQT>;
-            layers = default;
         };
         combo_apos {
             timeout-ms = <50>;
             key-positions = <33 28>;
             bindings = <&kp APOS>;
-            layers = default;
         };
     };
     
