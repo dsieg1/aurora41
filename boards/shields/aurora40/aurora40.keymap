@@ -42,7 +42,7 @@
                 &kp Q       &kp W       &kp E       &kp R       &kp T               &kp Y      &kp U       &kp I       &kp O       &kp P
                 &kp A       &kp S       &kp D       &kp F       &kp G               &kp H      &kp J       &kp K       &kp L       &kp SEMI
                 &kp Z       &kp X       &kp C       &kp V       &kp B               &kp N      &kp M       &kp COMMA   &kp DOT     &kp FSLH
-                &kp LCTRL   &kp LALT    &mo fnl     &kp LSHFT   &kp BSPC            &mo SPACE  &kp BSPC    &mo fnr     &kp MINUS   &kp ENTR
+                &kp LCTRL   &kp LALT    &mo fnl     &kp LSHFT   &kp BSPC            &mo SPACE  &kp RSHIFT  &mo fnr     &kp MINUS   &kp ENTR
             >;
         };
         
@@ -50,9 +50,9 @@
         fnl {
             bindings = <
                 &kp N1      &kp N2      &kp N3      &kp N4      &kp N5               &kp N6     &kp N7      &kp N8      &kp N9      &kp N0
-                &trans      &trans      &trans      &trans      &trans               &kp PG_UP  &kp HOME    &kp UP      &kp END     &kp C_VOL_UP
-                &trans      &trans      &trans      &trans      &trans               &kp PG_DN  &kp LEFT    &kp DOWN    &kp Right   &kp C_Vol_DN
-                &trans      &trans      &trans      &trans      &kp del              &trans     &trans      &trans      &trans      &trans
+                &trans      &trans      &trans      &trans      &trans               &kp PG_UP  &kp HOME    &kp UP      &kp END     &kp EQUAL
+                &trans      &trans      &trans      &trans      &trans               &kp PG_DN  &kp LEFT    &kp DOWN    &kp Right   &kp GRAVE
+                &trans      &trans      &trans      &trans      &kp DEL              &trans     &trans      &trans      &trans      &trans
             >;
         };
         // Layer 2
@@ -61,7 +61,7 @@
                 &kp EXCL    &kp AT      &kp POUND   &kp DLLR    &kp PRCNT            &kp CARET   &kp AMPS    &kp STAR   &kp LPAR    &kp RPAR
                 &kp TAB     &kp LBRC    &kp RBRC    &kp LT      &kp RT               &trans      &trans      &trans     &trans      &trans
                 &kp CAPS    &kp LBKT    &kp RBKT    &kp BSLH    &kp PIPE             &trans      &trans      &trans     &trans      &trans
-                &trans      &trans      &trans      &trans      &kp del              &trans      &trans      &trans     &trans      &trans
+                &trans      &trans      &trans      &trans      &kp DEL              &trans      &trans      &trans     &trans      &trans
             >;
         };
     };
