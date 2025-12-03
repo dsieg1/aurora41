@@ -5,3 +5,8 @@ config SHIELD_AURORA40_LEFT
 
 config SHIELD_AURORA40_RIGHT
     def_bool $(shields_list_contains,aurora40_right)
+
+&bluetooth {
+    compatible = "zmk,bluetooth";
+    status = "okay";
+};
