@@ -4,9 +4,10 @@
 
 /* Layers */
 #define default 0
-#define fnl 1
-#define fnr 2
-#define mac 3
+#define mac 1
+#define fnl 2
+#define fnr 3
+
 
 / { 
     //      ----------------------    ----------------------
@@ -26,7 +27,7 @@
                 &kp Q       &kp W       &kp E       &kp R       &kp T               &kp Y        &kp U       &kp I       &kp O       &kp P
                 &kp A       &kp S       &kp D       &kp F       &kp G               &kp H        &kp J       &kp K       &kp L       &kp SEMI
                 &kp Z       &kp X       &kp C       &kp V       &kp B               &kp N        &kp M       &kp COMMA   &kp DOT     &kp FSLH
-                &kp LCTRL   &kp LALT    &mo 1       &kp LSHFT   &kp BSPC            &kp SPACE    &kp RSHFT   &mo 2       &kp MINUS   &kp ENTER
+                &kp LCTRL   &kp LALT    &mo 2       &kp LSHFT   &kp BSPC            &kp SPACE    &kp RSHFT   &mo 3       &kp MINUS   &kp ENTER
             >;
         };
 
@@ -36,7 +37,7 @@
                 &kp Q       &kp W       &kp E       &kp R       &kp T               &kp Y        &kp U       &kp I       &kp O       &kp P
                 &kp A       &kp S       &kp D       &kp F       &kp G               &kp H        &kp J       &kp K       &kp L       &kp SEMI
                 &kp Z       &kp X       &kp C       &kp V       &kp B               &kp N        &kp M       &kp COMMA   &kp DOT     &kp FSLH
-                &kp LCTRL   &kp LGUI    &mo 1       &kp LSHFT   &kp BSPC            &kp SPACE    &kp RSHFT   &mo 2       &kp MINUS   &kp ENTER
+                &kp LCTRL   &kp LGUI    &mo 2       &kp LSHFT   &kp BSPC            &kp SPACE    &kp RSHFT   &mo 3       &kp MINUS   &kp ENTER
             >;
         };
         
@@ -53,10 +54,10 @@
         // Layer 2
         fnr {
             bindings = <
-                &kp N1      &kp N2      &kp N3      &kp N4      &kp N5               &kp BT_SEL 0  &BT_SEL 1   &BT_SEL 2  &kp BT_SEL 3 &kp BT_CLR
-                &kp TAB     &kp LBRC    &kp RBRC    &kp EQUAL   &kp GRAVE            &kp C_BRI_UP  &trans      &kp C_PP   &kp C_NEXT   &kp C_VOL_UP
-                &kp CAPS    &kp LBKT    &kp RBKT    &kp BSLH    &kp PIPE             &kp C_BRI_DN  &trans      &trans     &kp C_PREV   &kp C_VOL_DN
-                &trans      &trans      &trans      &trans      &trans               &trans        &trans      &trans     &trans       &trans
+                &kp N1      &kp N2      &kp N3      &kp N4      &kp N5               &kp BT_SEL 0  &kp BT_SEL 1  &kp BT_SEL 2  &kp BT_SEL 3 &kp BT_CLR
+                &kp TAB     &kp LBRC    &kp RBRC    &kp EQUAL   &kp GRAVE            &kp C_BRI_UP  &trans        &kp C_PP      &kp C_NEXT   &kp C_VOL_UP
+                &kp CAPS    &kp LBKT    &kp RBKT    &kp BSLH    &kp PIPE             &kp C_BRI_DN  &trans        &trans        &kp C_PREV   &kp C_VOL_DN
+                &trans      &trans      &trans      &trans      &trans               &trans        &trans        &trans        &trans       &trans
             >;
         };
     };
